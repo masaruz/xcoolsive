@@ -171,14 +171,13 @@
     background-color: #212529;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    /* background-position: center center; */
+    background-position: center center;
     background-size: cover;
   }
   
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
-    height: 900px;
   }
   
   header.masthead .intro-text .intro-lead-in {

@@ -1,7 +1,6 @@
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Gallery from '../components/gallery/Container'
-import Service from '../components/service/Container'
 import Contact from '../components/contact/Container'
 import Navbar from '../components/Navbar'
 
@@ -44,9 +43,8 @@ class Hotel1 extends React.Component {
         return (
             <Layout>
                 <Navbar/>
-                <Header/>
+                <Header img='static/img/7/15.jpg'/>
                 <Gallery name={this.hotel.name} desc={this.hotel.desc} images={this.hotel.images}/>
-                <Service/>
                 <Contact/>
             </Layout>
         )

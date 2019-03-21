@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
-import Header from '../components/Header'
-import Gallery from '../components/gallery/Container'
+import Slide from '../components/Slide'
 import Service from '../components/service/Container'
 import Contact from '../components/contact/Container'
 import Navbar from '../components/Navbar'
@@ -14,8 +13,7 @@ class Index extends React.Component {
         return (
             <Layout>
                 <Navbar/>
-                <Header/>
-                <Service/>
+                <Slide/>
                 <Contact/>
             </Layout>
         )

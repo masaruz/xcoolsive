@@ -1,17 +1,18 @@
 import Menu from './Menu'
-import Dropdown from './Dropdown';
+import Dropdown from './Dropdown'
+import Link from 'next/link'
 
-const Navbar = ({updateGallery}) => (
+const Navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#home">XCOOLSIVE</a>
+            <Link href="/"><a className="navbar-brand js-scroll-trigger">XCOOLSIVE</a></Link>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i className="fas fa-bars"></i>
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav text-uppercase ml-auto">
-                    <Menu href="#services" text="Our Services"/>
+                    <Menu href="/service" text="Our Services"/>
                     <Dropdown items={[
                         {
                             text: 'Chateau De Sukhumvit Hotel Bangkok',

@@ -4564,7 +4564,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_55dc4e2ecf7824085104
 
 /***/ }),
 
-/***/ 2:
+/***/ 4:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2FUsers%2Fstamp%2Fnode%2Fhotel%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
   \*******************************************************************************************************************************************************/
@@ -4587,5 +4587,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=_error.js.map

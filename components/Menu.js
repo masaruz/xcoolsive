@@ -1,6 +1,8 @@
+import Link from 'next/link'
+
 const Menu = ({href, text}) => (
     <li className="nav-item">
-        <a className="nav-link js-scroll-trigger" href={href}>{text}</a>
+        <Link href={href}><a className="nav-link js-scroll-trigger">{text}</a></Link>
     </li>
 )
 

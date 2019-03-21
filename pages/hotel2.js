@@ -1,11 +1,10 @@
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Gallery from '../components/gallery/Container'
-import Service from '../components/service/Container'
 import Contact from '../components/contact/Container'
 import Navbar from '../components/Navbar'
 
-class Hotel1 extends React.Component {
+class Hotel extends React.Component {
     constructor(props) {
         super(props)
         this.hotel = {
@@ -31,8 +30,7 @@ class Hotel1 extends React.Component {
                 'static/img/2/14.jpg',
                 'static/img/2/15.jpg',
                 'static/img/2/16.jpg',
-                'static/img/2/17.jpg',
-                'static/img/2/18.jpg'
+                'static/img/2/17.jpg'
             ]
         }
     }
@@ -41,12 +39,11 @@ class Hotel1 extends React.Component {
         return (
             <Layout>
                 <Navbar/>
-                <Header/>
+                <Header img='static/img/2/06.jpg'/>
                 <Gallery name={this.hotel.name} desc={this.hotel.desc} images={this.hotel.images}/>
-                <Service/>
                 <Contact/>
             </Layout>
         )
     }
 }
-export default Hotel1
+export default Hotel

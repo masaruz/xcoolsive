@@ -177,10 +177,14 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/stamp/node/hotel/components/Header.js";
 
 
-var Header = function Header() {
+var Header = function Header(_ref) {
+  var img = _ref.img;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "masthead",
     id: "home",
+    style: {
+      backgroundImage: 'url(' + img + ')'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
@@ -362,7 +366,10 @@ var Layout = function Layout(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/stamp/node/hotel/components/Menu.js";
+
 
 
 var Menu = function Menu(_ref) {
@@ -372,18 +379,24 @@ var Menu = function Menu(_ref) {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: href,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link js-scroll-trigger",
-    href: href,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 5
     },
     __self: this
-  }, text));
+  }, text)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
@@ -403,37 +416,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Menu */ "./components/Menu.js");
 /* harmony import */ var _Dropdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Dropdown */ "./components/Dropdown.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/stamp/node/hotel/components/Navbar.js";
 
 
 
 
-var Navbar = function Navbar(_ref) {
-  var updateGallery = _ref.updateGallery;
+
+var Navbar = function Navbar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar navbar-expand-lg navbar-dark fixed-top",
     id: "mainNav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "navbar-brand js-scroll-trigger",
-    href: "#home",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
-  }, "XCOOLSIVE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }, "XCOOLSIVE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "navbar-toggler navbar-toggler-right",
     type: "button",
     "data-toggle": "collapse",
@@ -443,14 +464,14 @@ var Navbar = function Navbar(_ref) {
     "aria-label": "Toggle navigation",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, "Menu", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-bars",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -458,22 +479,22 @@ var Navbar = function Navbar(_ref) {
     id: "navbarResponsive",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "navbar-nav text-uppercase ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Menu__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "#services",
+    href: "/service",
     text: "Our Services",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Dropdown__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -501,7 +522,7 @@ var Navbar = function Navbar(_ref) {
     }],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Menu__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -509,7 +530,7 @@ var Navbar = function Navbar(_ref) {
     text: "Contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
   })))));
@@ -882,204 +903,6 @@ var Row = function Row(_ref) {
       lineNumber: 9
     },
     __self: this
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Row);
-
-/***/ }),
-
-/***/ "./components/service/Container.js":
-/*!*****************************************!*\
-  !*** ./components/service/Container.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Row */ "./components/service/Row.js");
-var _jsxFileName = "/Users/stamp/node/hotel/components/service/Container.js";
-
-
-
-var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    id: "services",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-12 text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "section-heading text-uppercase",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Our Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "section-subheading text-muted",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "The Xcoolsive Collection provide management services for a whole range of hospitality projects that includes Hotels, Resorts and Apartments from our exclusive concepts for small property to five stars prperty. Backed by years of hospitality experience, we are able to provide strong management capabilities and critical competences across the value chain, and direct access to our proven distribution platform."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row text-center",
-    style: {
-      'marginBottom': '35px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Project Pre-opening",
-    desc: ["Development of Outlets & Facilities", "Concept and Specifications", "System Set up and Configuration", "Marketing Plans", "Establishing Goals, Objectives and Budgets", "Policies and Procedures", "Recruitment and Training"],
-    icon: "fa-paper-plane",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Project Opening",
-    desc: ["Soft Opening & Official Launching Planning", "Project Managing and Operating", "Public Relations and Publications", "Improvement Strategies & Evaluations", "Marketing & Sales"],
-    icon: "fa-envelope-open",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Operations Consulting",
-    desc: ["Policies and Procedures", "Costs and Expenses Evaluation", "Staff Efficiency Evaluation", "Recruitment and Training", "Policies and Procedures", "Service Improvements", "Quality Assurance"],
-    icon: "fa-users",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Marketing & Sales Solutions",
-    desc: ["Marketing & Sales Management", "Public Relations & Advertising", "Online E-Business & Distributions", "Webpage Content Review and Optimization", "Booking Engines", "Brand Development", "Sales & Market (Country / Area) Representation"],
-    icon: "fa fa-shopping-cart",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Owner Representation",
-    desc: ["Site Visits & Spot Checks", "Negotiating of Contracts and Agreements", "Interpersonal Communicator", "Budget Reviews", "Management Counseling", "Business Plan Review", "Future Developments"],
-    icon: "fa-user-circle",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./components/service/Row.js":
-/*!***********************************!*\
-  !*** ./components/service/Row.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/stamp/node/hotel/components/service/Row.js";
-
-
-var Row = function Row(_ref) {
-  var name = _ref.name,
-      desc = _ref.desc,
-      icon = _ref.icon;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "fa-stack fa-4x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-circle fa-stack-2x text-primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas ".concat(icon, " fa-stack-1x fa-inverse"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: "service-heading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, name), desc.map(function (i, key) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: key,
-      className: "text-muted",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8
-      },
-      __self: this
-    }, i);
   }));
 };
 
@@ -11632,9 +11455,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
 /* harmony import */ var _components_gallery_Container__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/gallery/Container */ "./components/gallery/Container.js");
-/* harmony import */ var _components_service_Container__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/service/Container */ "./components/service/Container.js");
-/* harmony import */ var _components_contact_Container__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/contact/Container */ "./components/contact/Container.js");
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
+/* harmony import */ var _components_contact_Container__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/contact/Container */ "./components/contact/Container.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
 
 
 
@@ -11648,18 +11470,17 @@ var _jsxFileName = "/Users/stamp/node/hotel/pages/hotel1.js";
 
 
 
-
-var Hotel1 =
+var Hotel =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Hotel1, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Hotel, _React$Component);
 
-  function Hotel1(props) {
+  function Hotel(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Hotel1);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Hotel);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Hotel1).call(this, props));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Hotel).call(this, props));
     _this.hotel = {
       name: 'Chatau De Sukhumvit Hotel Bangkok',
       desc: "Chateau de Sukhumvit offers impeccable service and \n            all the essential amenities to invigorate travelers. A selection \n            of top-class facilities such as free Wi-Fi in all rooms, taxi service, \n            24-hour security, daily housekeeping, laundromat can be enjoyed at the hotel.\xA0The hotel \n            features 87 beautifully appointed guest rooms, many of which include television LCD/plasma screen, \n            additional toilet, clothes rack, complimentary instant coffee, complimentary tea. Besides, the hotel's \n            host of recreational offerings ensures you have plenty to do during your stay. Chateau de Sukhumvit is an \n            ideal place of stay for travelers seeking charm, comfort and convenience in Bangkok.",
@@ -11668,25 +11489,26 @@ function (_React$Component) {
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Hotel1, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Hotel, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 43
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        img: "static/img/1/07.jpg",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 44
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_gallery_Container__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -11695,29 +11517,23 @@ function (_React$Component) {
         images: this.hotel.images,
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_contact_Container__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 46
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_service_Container__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_contact_Container__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
         },
         __self: this
       }));
     }
   }]);
 
-  return Hotel1;
+  return Hotel;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Hotel1);
+/* harmony default export */ __webpack_exports__["default"] = (Hotel);
 
 /***/ }),
 
