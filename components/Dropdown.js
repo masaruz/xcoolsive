@@ -1,6 +1,6 @@
 import DropdownItem from './DropdownItem'
 
-const Dropdown = ({updateGallery, items}) => (
+const Dropdown = ({items}) => (
     <li className="nav-item">
         <div className="dropdown">
             <div className="nav-link js-scroll-trigger">
@@ -9,7 +9,7 @@ const Dropdown = ({updateGallery, items}) => (
                 </div>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     {items.map((i, k) => 
-                        <DropdownItem href="#portfolio" text={i} key={k} id={k} length={items.length}/>
+                        <DropdownItem href={i.link} text={i.text} key={k} id={k} length={items.length}/>
                     )}
                 </div>
             </div>

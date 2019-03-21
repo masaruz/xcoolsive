@@ -13,15 +13,34 @@ const Navbar = ({updateGallery}) => (
                 <ul className="navbar-nav text-uppercase ml-auto">
                     <Menu href="#services" text="Our Services"/>
                     <Dropdown items={[
-                        "Chateau De Sukhumvit Hotel Bangkok",
-                        "The Victory Executive Residences Bangkok",
-                        "The Signature at The Victory Residences",
-                        "Grand Parazo Hotel Suvarnbhumi Airport",
-                        "Le Club at Chateau 56, A Xcoolsive Collection",
-                        "All That Bangkok Hostel",
-                        "Le Lamoon Chiangmai (Opening late of 2019)",
-                        "Ceylon Place Kuala Lumpur",
-                        "Bangkok Transport Service, Limousine Service"
+                        {
+                            text: 'Chateau De Sukhumvit Hotel Bangkok',
+                            link: 'hotel1'
+                        },
+                        {
+                            text: 'The Victory Executive Residences Bangkok',
+                            link: 'hotel2'
+                        },
+                        {
+                            text: 'The Signature at The Victory Residences',
+                            link: 'hotel3'
+                        },
+                        {
+                            text: 'Grand Parazo Hotel Suvarnbhumi Airport',
+                            link: 'hotel4'
+                        },
+                        {
+                            text: 'Le Club at Chateau 56, A Xcoolsive Collection',
+                            link: 'hotel5'
+                        },
+                        {
+                            text: 'All That Bangkok Hostel',
+                            link: 'hotel6'
+                        },
+                        {
+                            text: 'Ceylon Place Kuala Lumpur',
+                            link: 'hotel7'
+                        }
                     ]}/>
                     <Menu href="#contact" text="Contact"/>
                 </ul>

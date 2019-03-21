@@ -32,11 +32,7 @@ class Hotel1 extends React.Component {
                 'static/img/2/15.jpg',
                 'static/img/2/16.jpg',
                 'static/img/2/17.jpg',
-                'static/img/2/18.jpg',
-                'static/img/2/19.jpg',
-                'static/img/2/20.jpg',
-                'static/img/2/21.jpg',
-                'static/img/2/22.jpg'
+                'static/img/2/18.jpg'
             ]
         }
     }
