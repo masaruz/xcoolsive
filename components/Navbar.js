@@ -12,7 +12,7 @@ const Navbar = ({updateGallery}) => (
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav text-uppercase ml-auto">
                     <Menu href="#services" text="Our Services"/>
-                    <Dropdown updateGallery={updateGallery} items={[
+                    <Dropdown items={[
                         "Chateau De Sukhumvit Hotel Bangkok",
                         "The Victory Executive Residences Bangkok",
                         "The Signature at The Victory Residences",

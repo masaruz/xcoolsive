@@ -9,7 +9,7 @@ const Dropdown = ({updateGallery, items}) => (
                 </div>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     {items.map((i, k) => 
-                        <DropdownItem href="#portfolio" updateGallery={updateGallery} text={i} key={k} id={k} length={items.length}/>
+                        <DropdownItem href="#portfolio" text={i} key={k} id={k} length={items.length}/>
                     )}
                 </div>
             </div>

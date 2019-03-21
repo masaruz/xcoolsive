@@ -8,15 +8,10 @@ class DropdownItem extends React.Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick(e) {
-        e.preventDefault()
-        this.updateGallery(this.id)
-    }
-
     render() {
         return (
             <div>
-                <a onClick={this.handleClick} className="dropdown-item" href={this.href}>{this.text}</a>
+                <Link href={this.href}><a className="dropdown-item">{this.text}</a></Link>
                 <div className="dropdown-divider"></div>
             </div>
         )
