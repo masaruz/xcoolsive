@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -593,25 +593,25 @@ var Navbar = function Navbar() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Dropdown__WEBPACK_IMPORTED_MODULE_2__["default"], {
     items: [{
       text: 'Chateau De Sukhumvit Hotel Bangkok',
-      link: 'hotel1'
+      link: '/hotel1'
     }, {
       text: 'The Victory Executive Residences Bangkok',
-      link: 'hotel2'
+      link: '/hotel2'
     }, {
       text: 'The Signature at The Victory Residences',
-      link: 'hotel3'
+      link: '/hotel3'
     }, {
       text: 'Grand Parazo Hotel Suvarnbhumi Airport',
-      link: 'hotel4'
+      link: '/hotel4'
     }, {
       text: 'Le Club at Chateau 56, A Xcoolsive Collection',
-      link: 'hotel5'
+      link: '/hotel5'
     }, {
       text: 'All That Bangkok Hostel',
-      link: 'hotel6'
+      link: '/hotel6'
     }, {
       text: 'Ceylon Place Kuala Lumpur',
-      link: 'hotel7'
+      link: '/hotel7'
     }],
     __source: {
       fileName: _jsxFileName,
@@ -2293,7 +2293,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/hotel1.js ***!
   \*******************************/

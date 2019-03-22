@@ -12,35 +12,35 @@ const Navbar = () => (
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav text-uppercase ml-auto">
-                    <Menu href="/service" text="Our Services"/>
+                    <Menu href="service.html" text="Our Services"/>
                     <Dropdown items={[
                         {
                             text: 'Chateau De Sukhumvit Hotel Bangkok',
-                            link: 'hotel1'
+                            link: 'hotel1.html'
                         },
                         {
                             text: 'The Victory Executive Residences Bangkok',
-                            link: 'hotel2'
+                            link: 'hotel2.html'
                         },
                         {
                             text: 'The Signature at The Victory Residences',
-                            link: 'hotel3'
+                            link: 'hotel3.html'
                         },
                         {
                             text: 'Grand Parazo Hotel Suvarnbhumi Airport',
-                            link: 'hotel4'
+                            link: 'hotel4.html'
                         },
                         {
                             text: 'Le Club at Chateau 56, A Xcoolsive Collection',
-                            link: 'hotel5'
+                            link: 'hotel5.html'
                         },
                         {
                             text: 'All That Bangkok Hostel',
-                            link: 'hotel6'
+                            link: 'hotel6.html'
                         },
                         {
                             text: 'Ceylon Place Kuala Lumpur',
-                            link: 'hotel7'
+                            link: 'hotel7.html'
                         }
                     ]}/>
                     <Menu href="#contact" text="Contact"/>
