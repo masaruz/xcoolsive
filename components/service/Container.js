@@ -18,14 +18,14 @@ const Header = () => (
                     "Establishing Goals, Objectives and Budgets",
                     "Policies and Procedures",
                     "Recruitment and Training"
-                    ]} icon="fa-paper-plane"/>
+                    ]} icon="static/img/service/1.jpg"/>
                 <Row name="Project Opening" desc={[
                     "Soft Opening & Official Launching Planning",
                     "Project Managing and Operating",
                     "Public Relations and Publications",
                     "Improvement Strategies & Evaluations",
                     "Marketing & Sales"
-                ]} icon="fa-envelope-open"/>
+                ]} icon="static/img/service/2.jpg"/>
                 <Row name="Operations Consulting" desc={[
                     "Policies and Procedures",
                     "Costs and Expenses Evaluation",
@@ -34,7 +34,7 @@ const Header = () => (
                     "Policies and Procedures",
                     "Service Improvements",
                     "Quality Assurance"
-                ]} icon="fa-users"/>
+                ]} icon="static/img/service/3.jpg"/>
             </div>
             <div className="row text-center">
                 <Row name="Marketing & Sales Solutions" desc={[
@@ -45,7 +45,7 @@ const Header = () => (
                     "Booking Engines",
                     "Brand Development",
                     "Sales & Market (Country / Area) Representation"
-                ]} icon="fa fa-shopping-cart"/>
+                ]} icon="static/img/service/4.jpg"/>
                 <Row name="Owner Representation" desc={[
                     "Site Visits & Spot Checks",
                     "Negotiating of Contracts and Agreements",
@@ -54,7 +54,7 @@ const Header = () => (
                     "Management Counseling",
                     "Business Plan Review",
                     "Future Developments"
-                ]} icon="fa-user-circle"/>
+                ]} icon="static/img/service/5.jpg"/>
             </div>
         </div>
     </section>

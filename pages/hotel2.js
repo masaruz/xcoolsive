@@ -25,12 +25,12 @@ class Hotel extends React.Component {
                 'static/img/2/09.jpg',
                 'static/img/2/10.jpg',
                 'static/img/2/11.jpg',
-                'static/img/2/12.jpg',
                 'static/img/2/13.jpg',
                 'static/img/2/14.jpg',
                 'static/img/2/15.jpg',
                 'static/img/2/16.jpg',
-                'static/img/2/17.jpg'
+                'static/img/2/17.jpg',
+                'static/img/2/12.jpg',
             ]
         }
     }
