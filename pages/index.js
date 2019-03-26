@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import Slide from '../components/Slide'
-import Service from '../components/service/Container'
+import Logo from '../components/logo/Container'
 import Contact from '../components/contact/Container'
 import Navbar from '../components/Navbar'
 
@@ -14,6 +14,7 @@ class Index extends React.Component {
             <Layout>
                 <Navbar/>
                 <Slide/>
+                <Logo/>
                 <Contact/>
             </Layout>
         )

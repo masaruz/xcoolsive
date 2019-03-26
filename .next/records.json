@@ -1,0 +1,45 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/_app.js": 2,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/_error.js": 3,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel1.js": 4,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel2.js": 5,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel3.js": 6,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel4.js": 7,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel5.js": 8,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel6.js": 9,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel7.js": 10,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/index.js": 11,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/service.js": 12,
+      "static/runtime/main.js": 13
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

@@ -287,13 +287,21 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "shortcut icon",
+    href: "static/img/favicon.ico",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     rel: "stylesheet",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -302,7 +310,7 @@ var Layout = function Layout(props) {
     type: "text/css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -311,7 +319,7 @@ var Layout = function Layout(props) {
     type: "text/css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -320,7 +328,7 @@ var Layout = function Layout(props) {
     type: "text/css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -329,7 +337,7 @@ var Layout = function Layout(props) {
     type: "text/css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -338,7 +346,7 @@ var Layout = function Layout(props) {
     type: "text/css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -346,14 +354,14 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   })), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
     src: "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -362,35 +370,35 @@ var Layout = function Layout(props) {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
     src: "static/js/jquery-easing/jquery.easing.min.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
     src: "static/js/jqBootstrapValidation.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
     src: "static/js/contact_me.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
     src: "static/js/agency.min.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }));
@@ -959,24 +967,44 @@ var Container = function Container() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "clearfix",
+    className: "col-md-12 text-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "section-heading text-uppercase",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Phone No. +66 9 6004 6207"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg-12 text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -985,7 +1013,7 @@ var Container = function Container() {
     type: "submit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 27
     },
     __self: this
   }, "Send Message"))))))));
@@ -1054,10 +1082,10 @@ var Input = function Input(_ref) {
 
 /***/ }),
 
-/***/ "./components/service/Container.js":
-/*!*****************************************!*\
-  !*** ./components/service/Container.js ***!
-  \*****************************************/
+/***/ "./components/logo/Container.js":
+/*!**************************************!*\
+  !*** ./components/logo/Container.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1065,127 +1093,55 @@ var Input = function Input(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Row */ "./components/service/Row.js");
-var _jsxFileName = "/Users/stamp/node/hotel/components/service/Container.js";
+/* harmony import */ var _Row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Row */ "./components/logo/Row.js");
+var _jsxFileName = "/Users/stamp/node/hotel/components/logo/Container.js";
 
 
+var logos = ['static/img/logo/01.jpg', 'static/img/logo/02.jpg', 'static/img/logo/03.jpg', 'static/img/logo/04.jpg', 'static/img/logo/05.jpg', 'static/img/logo/06.png', 'static/img/logo/07.jpg', 'static/img/logo/08.jpg'];
 
-var Header = function Header() {
+var Container = function Container() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "services",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-12 text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "section-heading text-uppercase",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Our Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "section-subheading text-muted",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "The Xcoolsive Collection provide management services for a whole range of hospitality projects that includes Hotels, Resorts and Apartments from our exclusive concepts for small property to five stars prperty. Backed by years of hospitality experience, we are able to provide strong management capabilities and critical competences across the value chain, and direct access to our proven distribution platform."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row text-center",
-    style: {
-      'marginBottom': '35px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Project Pre-opening",
-    desc: ["Development of Outlets & Facilities", "Concept and Specifications", "System Set up and Configuration", "Marketing Plans", "Establishing Goals, Objectives and Budgets", "Policies and Procedures", "Recruitment and Training"],
-    icon: "static/img/service/1.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Project Opening",
-    desc: ["Soft Opening & Official Launching Planning", "Project Managing and Operating", "Public Relations and Publications", "Improvement Strategies & Evaluations", "Marketing & Sales"],
-    icon: "static/img/service/2.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Operations Consulting",
-    desc: ["Policies and Procedures", "Costs and Expenses Evaluation", "Staff Efficiency Evaluation", "Recruitment and Training", "Policies and Procedures", "Service Improvements", "Quality Assurance"],
-    icon: "static/img/service/3.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 17
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Marketing & Sales Solutions",
-    desc: ["Marketing & Sales Management", "Public Relations & Advertising", "Online E-Business & Distributions", "Webpage Content Review and Optimization", "Booking Engines", "Brand Development", "Sales & Market (Country / Area) Representation"],
-    icon: "static/img/service/4.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Owner Representation",
-    desc: ["Site Visits & Spot Checks", "Negotiating of Contracts and Agreements", "Interpersonal Communicator", "Budget Reviews", "Management Counseling", "Business Plan Review", "Future Developments"],
-    icon: "static/img/service/5.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
+  }, logos.map(function (logo, key) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Row__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      key: key,
+      logo: logo,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    });
   }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Header);
+/* harmony default export */ __webpack_exports__["default"] = (Container);
 
 /***/ }),
 
-/***/ "./components/service/Row.js":
-/*!***********************************!*\
-  !*** ./components/service/Row.js ***!
-  \***********************************/
+/***/ "./components/logo/Row.js":
+/*!********************************!*\
+  !*** ./components/logo/Row.js ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1193,59 +1149,33 @@ var Header = function Header() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/stamp/node/hotel/components/service/Row.js";
+var _jsxFileName = "/Users/stamp/node/hotel/components/logo/Row.js";
 
 
 var Row = function Row(_ref) {
-  var name = _ref.name,
-      desc = _ref.desc,
-      icon = _ref.icon;
+  var logo = _ref.logo;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-4",
+    className: "col-md-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "fa-stack fa-4x",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: logo,
+    className: "img-thumbnail",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: icon,
-    className: "img-thumbnail",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: "service-heading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, name), desc.map(function (i, key) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: key,
-      className: "text-muted",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9
-      },
-      __self: this
-    }, i);
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Row);
@@ -2459,7 +2389,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _components_Slide__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Slide */ "./components/Slide.js");
-/* harmony import */ var _components_service_Container__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/service/Container */ "./components/service/Container.js");
+/* harmony import */ var _components_logo_Container__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/logo/Container */ "./components/logo/Container.js");
 /* harmony import */ var _components_contact_Container__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/contact/Container */ "./components/contact/Container.js");
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
 
@@ -2507,10 +2437,16 @@ function (_React$Component) {
           lineNumber: 16
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_contact_Container__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_logo_Container__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_contact_Container__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
         },
         __self: this
       }));

@@ -1,0 +1,63 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/hotel1.js": 0,
+      "multi private-next-pages/hotel2.js": 1,
+      "multi private-next-pages/hotel3.js": 2,
+      "multi private-next-pages/hotel4.js": 3,
+      "multi private-next-pages/hotel5.js": 4,
+      "multi private-next-pages/hotel6.js": 5,
+      "multi private-next-pages/hotel7.js": 6,
+      "multi private-next-pages/index.js": 7,
+      "multi private-next-pages/service.js": 8,
+      "multi next/dist/pages/_app": 9,
+      "multi next/dist/pages/_error": 10,
+      "multi next/dist/pages/_document": 11
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/_app.js": 0,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/_document.js": 1,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/_error.js": 2,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel1.js": 3,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel2.js": 4,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel3.js": 5,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel4.js": 6,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel5.js": 7,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel6.js": 8,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/hotel7.js": 9,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/index.js": 10,
+      "static/cgBb4OMN1EJbmTXuLM7yM/pages/service.js": 11
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

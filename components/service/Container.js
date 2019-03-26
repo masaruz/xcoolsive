@@ -6,7 +6,7 @@ const Header = () => (
             <div className="row">
                 <div className="col-lg-12 text-center">
                 <h2 className="section-heading text-uppercase">Our Services</h2>
-                <h3 className="section-subheading text-muted">The Xcoolsive Collection provide management services for a whole range of hospitality projects that includes Hotels, Resorts and Apartments from our exclusive concepts for small property to five stars prperty. Backed by years of hospitality experience, we are able to provide strong management capabilities and critical competences across the value chain, and direct access to our proven distribution platform.</h3> 
+                <div className="text-muted" style={{marginBottom: '50px;'}}>The Xcoolsive Collection provide management services for a whole range of hospitality projects that includes Hotels, Resorts and Apartments from our exclusive concepts for small property to five stars prperty. Backed by years of hospitality experience, we are able to provide strong management capabilities and critical competences across the value chain, and direct access to our proven distribution platform.</div> 
                 </div>
             </div>
             <div className="row text-center" style={{'marginBottom': '35px'}}>

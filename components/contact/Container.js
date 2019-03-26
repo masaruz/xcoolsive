@@ -18,6 +18,9 @@ const Container = () => (
                         <Input col="col-md-6" id="phone" placeholder="Phone" validateMsg="Please enter your phone number."/>
                         <Input col="col-md-12" id="company" placeholder="Company" validateMsg="Please enter your company."/>
                         <Input col="col-md-12" id="enquiry" placeholder="Your Enquiry" validateMsg="Please enter your enquiry."/>
+                        <div className="col-md-12 text-center">
+                            <p className="section-heading text-uppercase"><h4>Phone No. +66 9 6004 6207</h4></p>
+                        </div>
                         <div className="clearfix"></div>
                         <div className="col-lg-12 text-center">
                             <div id="success"></div>

@@ -12,9 +12,7 @@ class Hotel extends React.Component {
         return (
             <Layout>
                 <Navbar/>
-                <header className="masthead" id="home">
-                    
-                </header>
+                <header className="masthead" id="home"></header>
                 <Service/>
             </Layout>
         )
