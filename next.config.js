@@ -2,13 +2,13 @@ module.exports = {
     exportPathMap: function() {
       return {
         '/': { page: '/' },
-        '/hotel1.html': { page: '/hotel1' },
-        '/hotel2.html': { page: '/hotel2' },
-        '/hotel3.html': { page: '/hotel3' },
-        '/hotel4.html': { page: '/hotel4' },
-        '/hotel5.html': { page: '/hotel5' },
-        '/hotel6.html': { page: '/hotel6' },
-        '/hotel7.html': { page: '/hotel7' },
+        '/ChateauDeSukhumvitHotelBangkok.html': { page: '/hotel1' },
+        '/TheVictoryExecutiveResidencesBangkok.html': { page: '/hotel2' },
+        '/TheSignatureAtTheVictoryResidences.html': { page: '/hotel3' },
+        '/GrandParazoHotelSuvarnbhumiAirport.html': { page: '/hotel4' },
+        '/LeClubAtChateau56AXcoolsiveCollection.html': { page: '/hotel5' },
+        '/AllThatBangkokHostel.html': { page: '/hotel6' },
+        '/CeylonPlaceKualaLumpur.html': { page: '/hotel7' },
         '/service.html': { page: '/service' },
       }
     }

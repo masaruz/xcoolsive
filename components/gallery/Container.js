@@ -5,7 +5,8 @@ const Container = ({name,images,desc}) => (
         <div className="container">
             <div className="row" style={{marginBottom: '50px;'}}>
                 <div className="col-lg-12 text-center">
-                <h2 className="section-heading text-uppercase">{name}</h2>
+                <h2 className="section-heading text-uppercase">{name.split('\n').map((text,key) => 
+                    <p key={key}>{text}</p>)}</h2>
                 <div className="section-subheading text-muted">{desc}</div>
                 </div>
             </div>

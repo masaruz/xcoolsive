@@ -8,7 +8,7 @@ class Hotel extends React.Component {
     constructor(props) {
         super(props)
         this.hotel = {
-            name: 'Le Club at Chateau Sukhumvit 56, The Xcoolsive Collection',
+            name: 'Le Club at Chateau Sukhumvit 56, \nThe Xcoolsive Collection',
             desc: `Le Club at Chateau Sukhunvit 56 is conveniently located in Sukhumvit, within easy reach of various businesses and shopping centers like Terminal 21 and EmQuartier Shopping Mall. Set only a 5-minute walk from BTS Skytrain Station, this hotel also offers a free Tuk Tuk shuttle service to nearby attractions area. Guests can enjoy free WiFi during stay.
             Suvarnabhumi International Airport is approximately a 35-minute drive away.
             All stylish modern rooms and suites are air-conditioned and provide an LED flat-screen TV, a large working desk and a comfortable bed. An in-room safe is also available for added security. Complete with a walk-in shower, the private bathroom comes with bath amenities, slippers and a hairdryer.

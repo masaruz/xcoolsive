@@ -560,25 +560,25 @@ var Navbar = function Navbar() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Dropdown__WEBPACK_IMPORTED_MODULE_2__["default"], {
     items: [{
       text: 'Chateau De Sukhumvit Hotel Bangkok',
-      link: 'hotel1.html'
+      link: 'ChateauDeSukhumvitHotelBangkok.html'
     }, {
       text: 'The Victory Executive Residences Bangkok',
-      link: 'hotel2.html'
+      link: 'TheVictoryExecutiveResidencesBangkok.html'
     }, {
       text: 'The Signature at The Victory Residences',
-      link: 'hotel3.html'
+      link: 'TheSignatureAtTheVictoryResidences.html'
     }, {
       text: 'Grand Parazo Hotel Suvarnbhumi Airport',
-      link: 'hotel4.html'
+      link: 'GrandParazoHotelSuvarnbhumiAirport.html'
     }, {
       text: 'Le Club at Chateau 56, A Xcoolsive Collection',
-      link: 'hotel5.html'
+      link: 'LeClubAtChateau56AXcoolsiveCollection.html'
     }, {
       text: 'All That Bangkok Hostel',
-      link: 'hotel6.html'
+      link: 'AllThatBangkokHostel.html'
     }, {
       text: 'Ceylon Place Kuala Lumpur',
-      link: 'hotel7.html'
+      link: 'CeylonPlaceKualaLumpur.html'
     }],
     __source: {
       fileName: _jsxFileName,
